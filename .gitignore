@@ -1,0 +1,83 @@
+# -----------------------------------------
+# Python
+# -----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Byte-compiled / temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# -----------------------------------------
+# Tests & Coverage
+# -----------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# -----------------------------------------
+# IDE / Editors
+# -----------------------------------------
+.vscode/
+.code-workspace
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------------------
+# OS-specific
+# -----------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -----------------------------------------
+# Tooling (optional but common)
+# -----------------------------------------
+# Ruff
+.ruff_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyInstaller
+__pyinstaller__/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+.env.*
+
+# SQLite or local DB files
+*.sqlite3
+*.db
