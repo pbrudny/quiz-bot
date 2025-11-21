@@ -34,7 +34,7 @@ jobs:
         run: uv sync
 
       - name: Run linter (Ruff)
-        run: uv run ruff check src tests
+        run: uv run ruff check .
 
       - name: Run tests (pytest)
         run: uv run pytest
