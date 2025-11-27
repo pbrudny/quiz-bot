@@ -1,8 +1,8 @@
-def main():
-    print("Hello from quiz-bot!")
+from fastapi import FastAPI
 
-def hello():
-    return "Hello, World!"
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+
+@app.get("/hello")
+def read_root():
+    return {"Hello": "World"}
